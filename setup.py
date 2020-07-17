@@ -19,7 +19,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/Kyubyong/collocate",
     packages=setuptools.find_packages(),
-    package_data={'collocate': ['collocate/indexdir']},
+    package_data={'collocate': ['collocate/indexdir/_MAIN_1.toc', 'collocate/indexdir/MAIN_vxol2ststxvi5mkc.seg']},
     python_requires=">=3.6",
     include_package_data=True,
     classifiers=[
