@@ -8,6 +8,7 @@ from whoosh.qparser import QueryParser
 
 class Collocate(object):
     def __init__(self):
+        print(os.path.dirname(os.path.abspath(__file__)))
         ix = index.open_dir(f"{os.path.dirname(os.path.abspath(__file__))}/indexdir")
         self.searcher = ix.searcher()
         self.query = QueryParser("analysis", ix.schema)
