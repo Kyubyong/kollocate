@@ -9,10 +9,10 @@ Let's find out which words are used together with a certain word.
 
 ## Example
 ```
->>> from search import Kollocate
+>>> from kollocate import Kollocate
 >>> k = Kollocate()
 >>> query = "먹" # drop the final ending "-다" for verbs/adjectives.
->>> collocates = k(q)
+>>> collocates = k(query)
 >>> for pos, cols in collocates.items():
 >>>    print(q + " as " + pos)
 >>>    for pos2, cols2 in cols.items():

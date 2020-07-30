@@ -9,7 +9,7 @@ REQUIRED_PACKAGES = [
 
 setuptools.setup(
     name="kollocate",
-    version="0.0.1",
+    version="0.0.2",
     author="Kyubyong Park",
     author_email="kbpark.linguist@gmail.com",
     description="Collocation Search of Korean",

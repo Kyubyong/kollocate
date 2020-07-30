@@ -2,15 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="648706e8-2192-40d9-8201-7fdf34053ce4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kollocate/__init__.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/collocate/__init__.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/collocate/analyze.py" afterPath="$PROJECT_DIR$/kollocate/analyze.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/collocate/index.py" afterPath="$PROJECT_DIR$/kollocate/index.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/collocate/indexdir/MAIN_WRITELOCK" afterPath="$PROJECT_DIR$/kollocate/indexdir/MAIN_WRITELOCK" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/collocate/indexdir/MAIN_vxol2ststxvi5mkc.seg" afterPath="$PROJECT_DIR$/kollocate/indexdir/MAIN_vxol2ststxvi5mkc.seg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/collocate/indexdir/_MAIN_1.toc" afterPath="$PROJECT_DIR$/kollocate/indexdir/_MAIN_1.toc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/collocate/search.py" afterPath="$PROJECT_DIR$/kollocate/search.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MANIFEST.in" afterPath="$PROJECT_DIR$/MANIFEST.in" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setup.py" afterPath="$PROJECT_DIR$/setup.py" />
     </list>
@@ -29,7 +20,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="364">
-                <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+                <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -45,11 +36,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/MANIFEST.in" />
         <option value="$PROJECT_DIR$/collocate/search.py" />
         <option value="$PROJECT_DIR$/collocate/__init__.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/setup.py" />
       </list>
     </option>
   </component>
@@ -336,14 +327,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="21" column="68" lean-forward="false" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MANIFEST.in">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
@@ -370,11 +353,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="364">
-            <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+            <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
             <folding />
           </first_editor>
           <second_editor />
