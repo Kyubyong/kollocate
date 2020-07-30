@@ -1,4 +1,4 @@
-# Collocation Search of Korean
+# Kollocate: Collocation Search of Korean
 
 Let's find out which words are used together with a certain word. 
 
@@ -8,13 +8,11 @@ Let's find out which words are used together with a certain word.
 
 
 ## Example
-* Download and extract the [indexed files](https://dl.dropboxusercontent.com/s/41ftb5kizlkvw8h/indexdir.zip)
-
 ```
->>> from search import Collocate
->>> c = Collocate()
->>> q = "먹" # drop the final ending "-다" for verbs/adjectives.
->>> collocates = c(q)
+>>> from search import Kollocate
+>>> k = Kollocate()
+>>> query = "먹" # drop the final ending "-다" for verbs/adjectives.
+>>> collocates = k(q)
 >>> for pos, cols in collocates.items():
 >>>    print(q + " as " + pos)
 >>>    for pos2, cols2 in cols.items():

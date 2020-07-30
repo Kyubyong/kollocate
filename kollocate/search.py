@@ -6,7 +6,7 @@ import whoosh.index as index
 from whoosh.qparser import QueryParser
 
 
-class Collocate(object):
+class Kollocate(object):
     def __init__(self):
         ix = index.open_dir(f"{os.path.dirname(os.path.abspath(__file__))}/indexdir")
         self.searcher = ix.searcher()
@@ -83,13 +83,13 @@ class Collocate(object):
     def __call__(self, word):
         query = self.query.parse(word)
         results = self.searcher.search(query, limit=None)
-        entry = self.parse_results(word, results)
+        collocates = self.parse_results(word, results)
 
-        return entry
+        return collocates
 
 
 if __name__ == "__main__":
-    c = Collocate()
+    c = Kollocate()
     q = "먹"
     collocates = c(q)
     for pos, cols in collocates.items():

@@ -8,7 +8,7 @@ REQUIRED_PACKAGES = [
 ]
 
 setuptools.setup(
-    name="collocate",
+    name="kollocate",
     version="0.0.1",
     author="Kyubyong Park",
     author_email="kbpark.linguist@gmail.com",
@@ -17,9 +17,9 @@ setuptools.setup(
     license='Apache License 2.0',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/Kyubyong/collocate",
+    url="https://github.com/Kyubyong/kollocate",
     packages=setuptools.find_packages(),
-    package_data={'collocate': ['collocate/indexdir/_MAIN_1.toc', 'collocate/indexdir/MAIN_vxol2ststxvi5mkc.seg']},
+    package_data={'kollocate': ['kollocate/indexdir/_MAIN_1.toc', 'kollocate/indexdir/MAIN_vxol2ststxvi5mkc.seg']},
     python_requires=">=3.6",
     include_package_data=True,
     classifiers=[
